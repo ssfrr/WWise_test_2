@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{A92590F7-4EDB-37F5-EBB1-61A1928D9510}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<Custom>
+					<Plugin Id="503537166" Name="AK Channel Router (Custom)" LibName="Wwise Channel Router" LibId="11272198"/>
+					<Plugin Id="990137344" Name="Wwise Channel Router (Attached)" LibName="AttachableMixerInput" LibId="11337731"/>
+				</Custom>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="906019553" Name="Listener Bus 2">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="990137344"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+				<Bus Id="906019554" Name="Listener Bus 1"/>
+				<Bus Id="3803692087" Name="Master Audio Bus">
+					<PluginRefs>
+						<Custom>
+							<PluginRef Id="503537166"/>
+						</Custom>
+					</PluginRefs>
+				</Bus>
+			</Busses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B0AF95B7-76CD-B2E4-5A70-E5FD6FA3B9B5}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="229785348" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>chris_mann.wav</ShortName>
+					<CachePath>SFX/chris_mann_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2730506588" Name="Play_chris_mann" MaxAttenuation="5" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="229785348"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{678FD4F8-FE0F-13BB-E7B1-46961D69AEE5}</FileHash>
+</SoundBanksInfo>

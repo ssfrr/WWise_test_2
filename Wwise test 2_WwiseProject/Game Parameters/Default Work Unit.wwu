@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9CCB71F8-1D6C-47F2-A8E2-387E46071C02}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{9CCB71F8-1D6C-47F2-A8E2-387E46071C02}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ListenerIdx" ID="{24C9EE97-72C6-428F-BF2A-945E86288CDD}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="8"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="Mac" BasePlatform="Mac">
+	<PluginLibs>
+		<PluginLib LibName="Wwise Channel Router" LibId="11272198" Type="Mixer" DLL="AkRouterMixer" StaticLib="AkRouterMixerFX"/>
+		<PluginLib LibName="AttachableMixerInput" LibId="11337731" Type="Attachable" DLL="AkRouterMixer"/>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{6C9F3341-C1D4-6270-9499-1EC0A4C80279}</FileHash>
+</PluginInfo>

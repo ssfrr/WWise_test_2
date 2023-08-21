@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5F83EA8B-DF93-47F8-97A3-8C0A0472F8C7}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{5F83EA8B-DF93-47F8-97A3-8C0A0472F8C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{D6D3A5BA-5B0F-4880-AFC5-7DC701B17671}" WorkUnitID="{D0CC63F1-0AC2-4D84-882F-F573710E02CC}"/>
+						</Reference>
+						<Reference Name="Mixer">
+							<Custom>
+								<Effect Name="AK Channel Router (Custom)" ID="{9AA55D48-5CB2-4DEB-92D0-AF1D39DD5558}" ShortID="559710798" PluginName="Wwise Channel Router" CompanyID="0" PluginID="172" PluginType="6"/>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Child Bus" ID="{6DE4B2F0-08C6-4ADA-A659-B6FBC20A274C}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>12546</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="AttachableMixerInput">
+									<Custom>
+										<Effect Name="Wwise Channel Router (Attached)" ID="{30BF43D1-6636-454C-BE7E-167CDC2F8A4C}" ShortID="1008728905" PluginName="AttachableMixerInput" CompanyID="0" PluginID="173" PluginType="3">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{8642D2FD-A03D-4F69-8383-B7155AAD87F1}" ShortID="619292070">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="Channel"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="ListenerIdx" ID="{24C9EE97-72C6-428F-BF2A-945E86288CDD}" WorkUnitID="{9CCB71F8-1D6C-47F2-A8E2-387E46071C02}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{17012F00-036A-4A6E-9349-DDF9F3BB9FF4}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>1</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1.43511</XPos>
+																						<YPos>1</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>1.43611</XPos>
+																						<YPos>3</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>2.33588</XPos>
+																						<YPos>3</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>2.33688</XPos>
+																						<YPos>5</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>3.40458</XPos>
+																						<YPos>5</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>3.40558</XPos>
+																						<YPos>7</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>4.39695</XPos>
+																						<YPos>7</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>4.39795</XPos>
+																						<YPos>9</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>5.49618</XPos>
+																						<YPos>9</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>5.49718</XPos>
+																						<YPos>11</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>6.35115</XPos>
+																						<YPos>11</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>6.35215</XPos>
+																						<YPos>13</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>7.41985</XPos>
+																						<YPos>13</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>7.42085</XPos>
+																						<YPos>15</YPos>
+																						<Flags>0</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>8</XPos>
+																						<YPos>15</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2730506588	Play_chris_mann			\Default Work Unit\Play_chris_mann	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	229785348	chris_mann	Y:\Library\CloudStorage\Dropbox\Projects\active\Unity\Wwise test 2\Wwise test 2_WwiseProject\.cache\Windows\SFX\chris_mann_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\chris_mann		5876864
+
