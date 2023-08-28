@@ -14,6 +14,116 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_CantHalfAss" ID="{41EF0418-6F91-4030-9765-F3D625EB08D9}">
+					<ChildrenList>
+						<Action Name="" ID="{82A399F3-F200-4682-A11C-562434B29A70}" ShortID="669692862">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CantHalfAss" ID="{02963323-176A-4786-9F74-B46E584D115B}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DigPotatoesInTheRain" ID="{C9777C0B-B02C-4FCC-8B0B-1CD33AA5D975}">
+					<ChildrenList>
+						<Action Name="" ID="{6284F436-4881-467D-8C47-2227B4BDE3FB}" ShortID="323396395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DigPotatoesInTheRain" ID="{369664BF-B222-414E-94F9-F121D9162976}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_EndOfTheDay" ID="{E3E6746C-8637-42D5-93D1-BED9BF376037}">
+					<ChildrenList>
+						<Action Name="" ID="{12AEEF79-5115-4573-8D3E-05C699FAD5E3}" ShortID="211428182">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="EndOfTheDay" ID="{9FBC04C9-9088-4981-8607-7332790E097C}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_FieldFullOfWeeds" ID="{E7620128-D58C-45B9-A107-E3D7A3725FB5}">
+					<ChildrenList>
+						<Action Name="" ID="{B458831C-D9DE-481E-84C6-B7060B0888B9}" ShortID="391917293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FieldFullOfWeeds" ID="{A9682F38-9C88-43C5-8935-9FFD73C89E32}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GetWorkDone" ID="{39189431-DFE9-4D03-B43E-98A24A3E6FFF}">
+					<ChildrenList>
+						<Action Name="" ID="{4348D5E3-56E9-48B0-928C-CC330FF7A332}" ShortID="1027422636">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GetWorkDone" ID="{96A163E2-7097-4B0E-BC2B-A5CB2F067E4D}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ItsTheJob" ID="{672B5BE6-7B3A-436D-91A3-4CCF3223F93A}">
+					<ChildrenList>
+						<Action Name="" ID="{E4110AF9-E92E-4D65-BEB7-73A9EE21E4FA}" ShortID="976418208">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ItsTheJob" ID="{11831115-88BF-4859-9EBB-A8B365B54CDC}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ParForTheCourse" ID="{2CABFCEB-0EB5-44CC-BE5F-F4716DDD603A}">
+					<ChildrenList>
+						<Action Name="" ID="{2E41F222-E1A4-42AF-8905-F1645376A413}" ShortID="812913996">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ParForTheCourse" ID="{87066434-8CE8-48A6-A32E-CD076E160C45}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TangibleResults" ID="{F07884F9-E920-488F-B7B7-A3A6549F95E5}">
+					<ChildrenList>
+						<Action Name="" ID="{FFDBD064-E19B-4780-B1A4-21A71445004E}" ShortID="1036187920">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TangibleResults" ID="{45168C45-7A1B-4EC8-AB5C-3901BF679940}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WeLoveWhatWeDo" ID="{FF3D4AF6-D632-47DC-B0F5-9D2D3486BBB2}">
+					<ChildrenList>
+						<Action Name="" ID="{B2A5E919-4342-4C82-9876-A6E4EFC1247C}" ShortID="413424006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WeLoveWhatWeDo" ID="{C4F4C957-159D-444E-AB6D-1AE6024735A6}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_WePickThingsUp" ID="{D55E4C69-276A-411A-85E9-46A686B107F2}">
+					<ChildrenList>
+						<Action Name="" ID="{F3F50161-19D0-46C5-B7DC-147736B0CC32}" ShortID="963865263">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WePickThingsUp" ID="{96EF3094-1D3E-43E0-B555-A70E08E4AEA5}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

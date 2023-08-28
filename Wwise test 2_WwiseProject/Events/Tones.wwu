@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{46A50418-6701-4785-BE97-7D04C34CE687}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Tones" ID="{46A50418-6701-4785-BE97-7D04C34CE687}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Crotales_C6" ID="{7E939E7D-687C-4EA3-947D-FF78E335EDBC}">
+					<ChildrenList>
+						<Action Name="" ID="{9E1663FC-7DDF-4D77-9B50-AEE17DD4548D}" ShortID="286550439">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crotales_C6" ID="{BFD41FAE-C206-4A0D-B890-39F711391EE4}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Vln_G4" ID="{1C64EA54-FAFE-4BD7-8F21-8A0148B7230B}">
+					<ChildrenList>
+						<Action Name="" ID="{06ACCEF4-3A98-4884-AD73-28D15334BDBA}" ShortID="735473208">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vln_G4" ID="{EB2088C2-1670-49B5-BA48-C02970D5B029}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Triangle" ID="{5527AF5D-66E1-4698-9DAF-A90634475A8E}">
+					<ChildrenList>
+						<Action Name="" ID="{947CA2CC-8423-44A4-8E84-14EF3E4825B1}" ShortID="729299883">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Triangle" ID="{8E3E08C3-AF6D-4648-9B0D-76AE4CCE2492}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Harp_C5" ID="{3AC009EA-BE7D-4946-987D-090F38FB14F1}">
+					<ChildrenList>
+						<Action Name="" ID="{B97D9A2C-AF11-4A0C-B351-744F67A1DADA}" ShortID="931960295">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Harp_C5" ID="{C0955B14-182C-45E8-BFC7-F5DAA41949A2}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

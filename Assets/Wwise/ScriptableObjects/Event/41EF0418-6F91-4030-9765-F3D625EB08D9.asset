@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8df45b9f38b542a1a746e4aae77b733, type: 3}
+  m_Name: 41EF0418-6F91-4030-9765-F3D625EB08D9
+  m_EditorClassIdentifier: 
+  objectName: Play_CantHalfAss
+  id: 1716807818
+  guid: 41EF0418-6F91-4030-9765-F3D625EB08D9

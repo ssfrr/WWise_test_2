@@ -1,6 +1,26 @@
 Event	ID	Name			Wwise Object Path	Notes
+	620964659	Play_WeLoveWhatWeDo			\Default Work Unit\Play_WeLoveWhatWeDo	
+	672684609	Play_DigPotatoesInTheRain			\Default Work Unit\Play_DigPotatoesInTheRain	
+	849094025	Play_WePickThingsUp			\Default Work Unit\Play_WePickThingsUp	
+	1016299825	Play_GetWorkDone			\Default Work Unit\Play_GetWorkDone	
+	1383927358	Play_ItsTheJob			\Default Work Unit\Play_ItsTheJob	
+	1716807818	Play_CantHalfAss			\Default Work Unit\Play_CantHalfAss	
 	2730506588	Play_chris_mann			\Default Work Unit\Play_chris_mann	
+	3302637431	Play_EndOfTheDay			\Default Work Unit\Play_EndOfTheDay	
+	3394098632	Play_FieldFullOfWeeds			\Default Work Unit\Play_FieldFullOfWeeds	
+	3554979188	Play_TangibleResults			\Default Work Unit\Play_TangibleResults	
+	4006006582	Play_ParForTheCourse			\Default Work Unit\Play_ParForTheCourse	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	229785348	chris_mann	Y:\Library\CloudStorage\Dropbox\Projects\active\Unity\Wwise test 2\Wwise test 2_WwiseProject\.cache\Mac\SFX\chris_mann_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\chris_mann		5876864
+	229785348	chris_mann	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\chris_mann_81238AE1.wem		\Actor-Mixer Hierarchy\Default Work Unit\chris_mann		5876864
+	237095064	DigPotatoesInTheRain	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\DigPotatoesInTheRain_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\DigPotatoesInTheRain		530304
+	439191861	GetWorkDone	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\GetWorkDone_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\GetWorkDone		661822
+	565443033	FieldFullOfWeeds	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\FieldFullOfWeeds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\FieldFullOfWeeds		1014614
+	570837775	CantHalfAss	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\CantHalfAss_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\CantHalfAss		561242
+	572260407	TangibleResults	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\TangibleResults_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\TangibleResults		364166
+	583394409	ParForTheCourse	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\ParForTheCourse_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\ParForTheCourse		739070
+	716886209	WeLoveWhatWeDo	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\WeLoveWhatWeDo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\WeLoveWhatWeDo		347770
+	787323064	WePickThingsUp	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\WePickThingsUp_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\WePickThingsUp		362592
+	914245780	EndOfTheDay	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\EndOfTheDay_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\EndOfTheDay		761156
+	985179240	ItsTheJob	G:\Unity Projects\Spencer\WWise_test_2\Wwise test 2_WwiseProject\.cache\Mac\SFX\ItsTheJob_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\TheJob\ItsTheJob		521896
 

@@ -96,7 +96,6 @@ public class AkInitializer : UnityEngine.MonoBehaviour
 			if (!bRegistered)
 				UnityEngine.Debug.Log("Wwise plug-in registration has failed. Some plug-ins may fail to initialize.");
 #endif
-			UnityEngine.Debug.Log("initializing sound engine controller");
 			AkSoundEngineController.Instance.Init(this);
 		}
 	}
