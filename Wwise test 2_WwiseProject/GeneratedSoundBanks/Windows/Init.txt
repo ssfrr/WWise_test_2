@@ -1,13 +1,16 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	823202714	ListenerIdx			\Default Work Unit\ListenerIdx	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	906019553	Listener Bus 2			\Default Work Unit\Master Audio Bus\Listener Bus 2	
-	906019554	Listener Bus 1			\Default Work Unit\Master Audio Bus\Listener Bus 1	
+	3544253659	Child Bus			\Default Work Unit\Master Audio Bus\Child Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	503537166	AK Channel Router (Custom)	Wwise Channel Router			
-	990137344	Wwise Channel Router (Attached)	AttachableMixerInput			
+	559710798	AK Channel Router (Custom)	Wwise Channel Router			
+	1008728905	Wwise Channel Router (Attached)	AttachableMixerInput			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
+	2712377323	ASIO_Output	ASIO Output			
 	3859886410	System	System			
 

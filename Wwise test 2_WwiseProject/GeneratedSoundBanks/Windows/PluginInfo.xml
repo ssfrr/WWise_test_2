@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Platform="Windows" BasePlatform="Windows">
 	<PluginLibs>
+		<PluginLib LibName="ASIO Output" LibId="11010055" Type="AudioDevice" DLL="ASIO" StaticLib="ASIOSourceSink"/>
 		<PluginLib LibName="Wwise Channel Router" LibId="11272198" Type="Mixer" DLL="AkRouterMixer" StaticLib="AkRouterMixerFX"/>
 		<PluginLib LibName="AttachableMixerInput" LibId="11337731" Type="Attachable" DLL="AkRouterMixer"/>
 		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
 		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
 	</PluginLibs>
-	<FileHash>{3F4A9C14-1AA3-7C81-2C21-DD0CD73B6176}</FileHash>
+	<FileHash>{468C4571-3BDB-243A-3F02-E0A467328D36}</FileHash>
 </PluginInfo>

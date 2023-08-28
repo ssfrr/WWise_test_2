@@ -1,62 +1,191 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
-		<ProjectRoot>../../</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9C42259E-956F-5AB6-6B74-311E8D5A8169}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{46388BFF-20B9-608E-CCDC-633CE94080AC}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
 				<Custom>
-					<Plugin Id="503537166" Name="AK Channel Router (Custom)" LibName="Wwise Channel Router" LibId="11272198"/>
-					<Plugin Id="990137344" Name="Wwise Channel Router (Attached)" LibName="AttachableMixerInput" LibId="11337731"/>
+					<Plugin Id="559710798" Name="AK Channel Router (Custom)" LibName="Wwise Channel Router" LibId="11272198"/>
+					<Plugin Id="1008728905" Name="Wwise Channel Router (Attached)" LibName="AttachableMixerInput" LibId="11337731"/>
 				</Custom>
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="2712377323" Name="ASIO_Output" LibName="ASIO Output" LibId="11010055"/>
 					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
-				<Bus Id="906019553" Name="Listener Bus 2">
+				<Bus Id="3544253659" Name="Child Bus">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="990137344"/>
+							<PluginRef Id="1008728905"/>
 						</Custom>
 					</PluginRefs>
 				</Bus>
-				<Bus Id="906019554" Name="Listener Bus 1"/>
 				<Bus Id="3803692087" Name="Master Audio Bus">
 					<PluginRefs>
 						<Custom>
-							<PluginRef Id="503537166"/>
+							<PluginRef Id="559710798"/>
 						</Custom>
 					</PluginRefs>
 				</Bus>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="823202714" Name="ListenerIdx"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B0AF95B7-76CD-B2E4-5A70-E5FD6FA3B9B5}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9530C8C5-69D1-72F8-282D-C3DC701CFB4B}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="25195847" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Harp_C5.wav</ShortName>
+					<CachePath>SFX/Harp_C5_82301332.wem</CachePath>
+				</File>
 				<File Id="229785348" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>chris_mann.wav</ShortName>
-					<CachePath>SFX/chris_mann_D79FB2B7.wem</CachePath>
+					<CachePath>SFX/chris_mann_81238AE1.wem</CachePath>
+				</File>
+				<File Id="232868804" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Triangle.wav</ShortName>
+					<CachePath>SFX/Triangle_01126A50.wem</CachePath>
+				</File>
+				<File Id="237095064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>DigPotatoesInTheRain.wav</ShortName>
+					<CachePath>SFX/DigPotatoesInTheRain_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="327249689" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Crotales_C6.wav</ShortName>
+					<CachePath>SFX/Crotales_C6_097CE595.wem</CachePath>
+				</File>
+				<File Id="439191861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GetWorkDone.wav</ShortName>
+					<CachePath>SFX/GetWorkDone_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="484846066" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Vln_G4.wav</ShortName>
+					<CachePath>SFX/Vln_G4_6E281F61.wem</CachePath>
+				</File>
+				<File Id="565443033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FieldFullOfWeeds.wav</ShortName>
+					<CachePath>SFX/FieldFullOfWeeds_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="570837775" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>CantHalfAss.wav</ShortName>
+					<CachePath>SFX/CantHalfAss_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="572260407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TangibleResults.wav</ShortName>
+					<CachePath>SFX/TangibleResults_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="583394409" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ParForTheCourse.wav</ShortName>
+					<CachePath>SFX/ParForTheCourse_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="716886209" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WeLoveWhatWeDo.wav</ShortName>
+					<CachePath>SFX/WeLoveWhatWeDo_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="787323064" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>WePickThingsUp.wav</ShortName>
+					<CachePath>SFX/WePickThingsUp_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="914245780" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>EndOfTheDay.wav</ShortName>
+					<CachePath>SFX/EndOfTheDay_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="985179240" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ItsTheJob.wav</ShortName>
+					<CachePath>SFX/ItsTheJob_D79FB2B7.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
+				<Event Id="1716807818" Name="Play_CantHalfAss" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="570837775"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2730506588" Name="Play_chris_mann" MaxAttenuation="5" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="229785348"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="103701777" Name="Play_Crotales_C6" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="327249689"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="672684609" Name="Play_DigPotatoesInTheRain" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="237095064"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3302637431" Name="Play_EndOfTheDay" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="914245780"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3394098632" Name="Play_FieldFullOfWeeds" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="565443033"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1016299825" Name="Play_GetWorkDone" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="439191861"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2450275880" Name="Play_Harp_C5" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="25195847"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1383927358" Name="Play_ItsTheJob" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="985179240"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4006006582" Name="Play_ParForTheCourse" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="583394409"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3554979188" Name="Play_TangibleResults" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="572260407"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2140127490" Name="Play_Triangle" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="232868804"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="129770920" Name="Play_Vln_G4" MaxAttenuation="35" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="484846066"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="620964659" Name="Play_WeLoveWhatWeDo" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="716886209"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="849094025" Name="Play_WePickThingsUp" MaxAttenuation="100" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="787323064"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9B82131F-12CC-549C-9EA5-C6CE2CF9F5E7}</FileHash>
+	<FileHash>{4E94B07A-783A-B288-ACCE-A40ECF0BDBBE}</FileHash>
 </SoundBanksInfo>

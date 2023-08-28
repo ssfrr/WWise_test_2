@@ -5,7 +5,23 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{A07BD2B3-C255-47BE-BE6C-7A435F3CC238}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_CantHalfAss" ID="{41EF0418-6F91-4030-9765-F3D625EB08D9}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WePickThingsUp" ID="{D55E4C69-276A-411A-85E9-46A686B107F2}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_EndOfTheDay" ID="{E3E6746C-8637-42D5-93D1-BED9BF376037}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ItsTheJob" ID="{672B5BE6-7B3A-436D-91A3-4CCF3223F93A}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ParForTheCourse" ID="{2CABFCEB-0EB5-44CC-BE5F-F4716DDD603A}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_FieldFullOfWeeds" ID="{E7620128-D58C-45B9-A107-E3D7A3725FB5}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Triangle" ID="{5527AF5D-66E1-4698-9DAF-A90634475A8E}" WorkUnitID="{46A50418-6701-4785-BE97-7D04C34CE687}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_chris_mann" ID="{3FF613E6-489C-46CA-983C-9C9014289F29}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Tones" ID="{46A50418-6701-4785-BE97-7D04C34CE687}" WorkUnitID="{46A50418-6701-4785-BE97-7D04C34CE687}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_WeLoveWhatWeDo" ID="{FF3D4AF6-D632-47DC-B0F5-9D2D3486BBB2}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TangibleResults" ID="{F07884F9-E920-488F-B7B7-A3A6549F95E5}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Harp_C5" ID="{3AC009EA-BE7D-4946-987D-090F38FB14F1}" WorkUnitID="{46A50418-6701-4785-BE97-7D04C34CE687}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Vln_G4" ID="{1C64EA54-FAFE-4BD7-8F21-8A0148B7230B}" WorkUnitID="{46A50418-6701-4785-BE97-7D04C34CE687}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="chris_mann" ID="{AD36C790-903B-4C06-928E-097746556D21}" WorkUnitID="{5E106E03-374C-4C6C-8092-4194A1EFFE6B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_GetWorkDone" ID="{39189431-DFE9-4D03-B43E-98A24A3E6FFF}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crotales_C6" ID="{7E939E7D-687C-4EA3-947D-FF78E335EDBC}" WorkUnitID="{46A50418-6701-4785-BE97-7D04C34CE687}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DigPotatoesInTheRain" ID="{C9777C0B-B02C-4FCC-8B0B-1CD33AA5D975}" WorkUnitID="{C2E7FBB2-5FC2-4AC2-A1C3-F19EB503CED8}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
